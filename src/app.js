@@ -2,8 +2,8 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = () => {
-  document.querySelector('#btn').addEventListener("Click", () => {
-  document.querySelector('the-excuse').innerHTML = generateExcuse();
+  document.querySelector('#btn').addEventListener("click", () => {
+  document.querySelector('#the-excuse').innerHTML = generateExcuse();
   });
   console.log('Hello Rigo from the console! ');
 };
